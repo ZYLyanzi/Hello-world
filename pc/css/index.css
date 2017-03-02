@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+
+/* ×ÖÌå */
+@font-face{
+	font-family: 'impact Regular';
+    src:url(../font/Impact.TTF);
+	font-weight: normal;
+	font-style: normal;
+	}
+
+body {
+	font-family:"Microsoft YaHei";
+	background:#0c1424;
+}
+a {
+	text-decoration:none;
+}
+.wrap-box {
+	width:100%; 
+	overflow:hidden;
+}
+.container{
+		margin:0 auto;
+		padding:0 20px;
+	}
+.ico{
+	background:url(../img/sprites.png) no-repeat;
+	display:block;
+	
+	}
+@media(min-width:1024px){
+	.container{
+		width:700px;
+	}
+	}   
+@media(min-width:1200px){ 
+	.container{
+		width:960px;
+		}
+	}
+.part-01{
+	background:url(../img/bg_01.jpg) no-repeat center 0;
+	background-size:cover;
+}
+.part-01 .top{
+	z-index:999;
+	padding-top:24px;
+	position:relative;
+	
+}
+.part-01 .top .login a{
+	color:#FFF;
+	font-size:14px;
+	}
+.part-01 .top .logo a{
+	height:108px;
+	line-height:108px;
+}
+.part-01 .top .logo .lol-logo{
+	position:absolute;
+	display: inline-block;
+	background-position:0 0;
+	width: 164px;
+    height: 108px;
+    top: 24px;
+    left: 0;
+	}
+.part-01 .top .lol-daoju{
+	position:absolute;
+	display: inline-block;
+	background-position:0 -108px;
+	width: 249px;
+    height: 50px;
+    top: 54px;;
+    left: 186px;
+	}
+.part-01 .banner-box{
+	z-index:1;
+	position:relative;
+	text-align:center;
+	}
+.part-01 .banner-box .role{
+	margin-top:-24px;
+	/*position:absolute;
+	z-index:1;
+	top:0;
+	left:0;
+	width:640px;
+	height:620px;
+	background:url(../img/role.png) no-repeat 0 0;
+	background-size:100% 100%;
+	left:848px;
+	width:0;
+	height:0;*/
+
+	}
+.part-01 .banner-box .banner-title{
+	
+	margin-top:-355px;
+
+	}
+.part-01 .banner-box .btn{
+	margin-top:-30px;
+	padding-bottom:20px;
+   
+	}
+.part-02{
+	background:url(../img/bg_02.jpg) no-repeat center 0;
+	background-size:cover;
+}
+.part-02 .content{margin:0 7px 0 10px;}
+.part-02 .content .hero{
+	padding:55px 0;
+	height:350px;
+	}
+	
+.part-02 .content .hero-top .he-left{
+	height:80px;
+	}
+.part-02 .content .hero-top .head-img{
+	text-align:center;
+	display: inline-block;
+	height:74px;
+	width:74px;
+	border:3px solid #8f51fb;
+	border-radius:40px;
+	}
+.part-02 .content .hero-top .name{
+	display: inline-block;
+	height:80px;
+	line-height:80px;
+	margin-left:14px;
+	font-size:45px;
+	color:#fff;
+	font-weight:bold;
+	}
+.part-02 .content .hero-top .name em{color:#8a48fa;}
+.part-02 .content .hero-top .he-right{
+	color:#8a48fa;
+	font-size:14px;
+	height:80px;
+	line-height:80px;
+	margin-right:25px;
+	position:relative;
+	}
+.part-02 .content .hero-top .he-right b{
+	float:left;
+	font-family: 'impact Regular';
+	font-size:90px;
+	color:#ffd600;
+	margin:0 10px;
+
+	}
+.part-02 .content .hero-top .he-right i{
+	height:75px;
+	width:42px;
+	background-position:0 -296px;
+	
+	}
+.part-02 .content .hero-top .he-right em{float:left;}
+.part-02 .content .hero .he-buy{
+	margin-top:100px;
+	height:250px;
+	}
+.part-02 .content .hero .he-buy	.detail-list li{
+	float:left;
+	margin-right:10px;
+
+	}
+
+.part-02 .content .hero .he-buy	.detail-list .to-buy{
+	width:141px;
+	height:37px;
+	margin-top:5px;
+	border:3px solid #8a48fa;
+	position:relative;
+	}
+.part-02 .content .hero .he-buy	.detail-list .to-buy i{
+	background-position:0 -278px;
+	width: 16px;
+    height: 16px;
+	position:absolute;
+	top:10px;
+	left:23px;
+	}
+.part-02 .content .hero .he-buy	.detail-list .to-buy em{
+	font-size:14px;
+	color:#8a48fa;
+	padding-left:45px;
+	height:37px;
+	line-height:37px;
+	}
+.part-02 .content .hero .line{
+	margin-top:55px;
+	height:10px;
+	width:100%;
+	background:url(../img/line_bg.png) repeat;
+	}
+.part-02 .bottom{
+	margin-top:175px;
+	text-align:center;
+	}
+.part-02 .bottom h1{
+	color:#8870e3;
+	font-size:38px;
+	height:70px;
+	line-height:70px;
+	}
+.part-02 .bottom p{
+	font-size:14px;
+	color:#babbc4;
+	height:24px;
+	line-height:24px;
+	}
+.part-02 .bottom p b{
+	color:#ffe900;
+	}
+.part-02 .bottom p em{
+	display: inline-block;
+	height:18px;
+	width:18px;
+	line-height:18px;
+	background:#493a95;
+	border-radius:18px;
+	}
+.part-02 .footer{
+	margin-top:200px;
+	padding-bottom:36px;
+	}
+.part-02 .footer p{
+	text-align:center;
+	}
+.part-02 .footer a{
+	color:#766c9a;
+	font-size:12px;
+	margin-bottom:12px;
+	}
+.part-02 .footer .beian{
+	font-size:10px;
+	}
