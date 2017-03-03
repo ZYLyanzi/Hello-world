@@ -9,20 +9,29 @@ body {
 	width:100%;
 	height:100%;
 	background:url(../img/bg.png) no-repeat center 0;
-	background-size:100% 100%;
-	padding:0 7.5px;
+	background-size:100% auto;
 }
+.main{margin:0 7.5px;}
 .header{
 	width:100%;
+	overflow:hidden;
 	}
-.header div{
+.header .user,.header .tag{
 	float:left;
 	}
 .header .user{
-	width:38%;
-	margin:8px 0 7px 0;
-	font-size:11px;
+	width:40%;
+	margin:8px 0 9px 0;
+	font-size:10px;
 	color:#fff;
+	}
+.header .user div{
+	float:left;
+	text-align:center;}
+.header .user strong{
+	font-size:30px;
+	color:#ffe400;
+	font-weight:bold;
 	}
 .header .user img{
 	width:46px;
@@ -30,13 +39,137 @@ body {
 	border:2px solid #FFF;
 	border-radius:25px;
 	}
+.header .person_lf img{
+	float:left;
+	margin-right:5px;
+	}
+.header .person_rg img{
+	float:right;
+	margin-left:5px;
+	}
+.header .person_rg div{float:right;}
+.header .tag{
+	width:20%;
+	}
 .header .vs-img{
 	background:url(../img/vs_bg.png) no-repeat center 0;
-	background-size:100% 100%;
+	background-size:100% auto;
 	width:58px;
 	height:58px;
+	margin:0 auto;
+	padding-top:8px;
+	color:#fff;
+	text-align:center;
+	font-size:12px;
 	}
-.header .vs-img{
+.header .vs-img em{
+	color:#ffe400;
+	font-weight:bold;
+	}
+.content{
+	width:100%;
+	}
+.content img{
+	z-index:9;
+	width:100%;
+	}
+.content .blackboard{
+	width:100%;
+	position:relative;
+	}
+.content .score{
+	width:100%;
+	position:relative;
+	}
+.content .question{
+	z-index:1;
+	position:absolute;
+	top:20%;
+	left:25%;
+	font-size:16px;
+	font-family:'SimSun ';
+	color:#fff;
+	font-weight:600;
+	}
+.content .question em{
+	font-weight:bold;
+	}
+.content .question em.first{
+	color:#91d929;
+	}
+.content .question em.second{
+	color:#6eb6fd;
+	}
+.content .schedule{
+	z-index:1;
+	position:absolute;
+	top:10px;
+	width:100%;
+}
+.content .schedule .pre{width:65%;
+	text-align:center;}
+.content .schedule .pre span{
+	display:inline-block;
+	text-align:left;
+	}
+.content .schedule .pre .jindu{
+	margin:10px 5px 0 5px;
+	float:left;
+	width:68%;
+	height:10px;
+	border-radius:2px;
+	background:url(../img/jindu.png) repeat-x center 0;
+	}
+.content .schedule .pre .jindu .remain{
+	height:9px;
+	border-radius:2px;
+	background:url(../img/yellow.png) repeat-x center 0;
+	display:block;
+	}
+.content .schedule strong{
+	font-size:28px;
+	color:#fff;
+	}
+.content .schedule p{
+	font-size:12px;
+	color:#ffe7be;
+	}
+.content .schedule .pre .time{
+	margin-top:5px;
+	width:25%;
+	position:relative;
+	}
+.content .schedule .pre .time em{
+	font-size:10px;
+	color:#ffe7be;
+	position:absolute;
+	top:-5px;
+	right:0;
+	}
+.content .schedule .beh{
+	width:30%;
+	border-left:1px solid #fe4e21;
+	margin-right:5px;
+	margin-top:5px;}
+.bottom a{
+	display:inline-block;
+	width:48%;
+	height:37%;
+	border-radius:8px;
+	text-align:center;
+	line-height:114px;
+	color:#fff;
+	font-size:86px;
 	
 	}
+.bottom .a_select{
+	margin-right:7.5px;
+	background:#91d929;
+	box-shadow: 0 8px 2px #61a81d;
+	}
+.bottom .b_select{
+	background:#6eb6fd;
+	box-shadow: 0 8px 2px #538ed5;
+	}
+
 
