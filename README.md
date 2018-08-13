@@ -1,2 +1,0 @@
-# zuoye
-the first repository
