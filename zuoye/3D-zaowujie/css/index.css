@@ -11,7 +11,7 @@ body{
 #box{
 	-webkit-transform-style: preserve-3d;
 	height: 100%;
-	 -webkit-perspective-origin: 50% 50%;
+	-webkit-perspective-origin: 50% 50%;
 }
 
 #box > div{

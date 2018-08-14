@@ -17,11 +17,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3D-zaowujie/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="206">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -29,31 +27,48 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3D-zaowujie/scripts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3Dmagic-cube/index.html">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3D-zaowujie/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-              <folding>
-                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3Dmagic-cube/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pageX</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/3Dmagic-cube/index.html" />
+        <option value="$PROJECT_DIR$/3D-zaowujie/css/index.css" />
+        <option value="$PROJECT_DIR$/3D-zaowujie/index.html" />
+        <option value="$PROJECT_DIR$/../../作业2-css3d-造物节/css3d/CSS3D/scripts/index.js" />
+        <option value="$PROJECT_DIR$/3D-zaowujie/scripts/index.js" />
       </list>
     </option>
   </component>
@@ -63,11 +78,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="227" />
-    <option name="y" value="38" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="60" />
+    <option name="y" value="88" />
     <option name="width" value="1701" />
-    <option name="height" value="852" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -92,22 +107,6 @@
               <item name="zuoye" type="b2602c69:ProjectViewProjectNode" />
               <item name="zuoye" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="zuoye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zuoye" type="462c0819:PsiDirectoryNode" />
-              <item name="3D-zaowujie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zuoye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zuoye" type="462c0819:PsiDirectoryNode" />
-              <item name="3D-zaowujie" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zuoye" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zuoye" type="462c0819:PsiDirectoryNode" />
-              <item name="3Dmagic-cube" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -124,7 +123,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/vue-admin-new" />
     <property name="node.js.detected.package.eslint" value="true" />
   </component>
   <component name="RunDashboard">
@@ -139,11 +138,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/zuoye/3D-zaowujie/index.html" />
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/zuoye/3Dmagic-cube/index.html" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -157,15 +162,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534150424640</updated>
-      <workItem from="1534150425848" duration="3990000" />
+      <workItem from="1534150425848" duration="11001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3990000" />
+    <option name="totallyTimeSpent" value="11001000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="227" y="38" width="1701" height="852" extended-state="1" />
+    <frame x="60" y="88" width="1701" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24985163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -197,39 +202,61 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3Dmagic-cube/css/index.css">
+    <entry file="file://$PROJECT_DIR$/3Dmagic-cube/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        <state relative-caret-position="204">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../作业2-css3d-造物节/css3d/CSS3D/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3Dmagic-cube/index.html">
+    <entry file="file://$PROJECT_DIR$/../../作业2-css3d-造物节/css3d/CSS3D/scripts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="61" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3Dmagic-cube/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D-zaowujie/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3D-zaowujie/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="340">
+          <caret line="20" column="62" lean-forward="false" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3D-zaowujie/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="37" column="25" lean-forward="true" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="206">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

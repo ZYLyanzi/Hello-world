@@ -1,31 +1,32 @@
-var container = document.getElementById('container');
-var box = document.getElementById('box');
-var arr = box.getElementsByTagName('div');
-var radius = calculateRadius(129, 20);
-var audio = document.getElementById('audio');
+$(document).ready(function(){
+	setBackground();
 
-for (var i = 0; i < arr.length; i++) {
-	arr[i].style.background = 'url("./img/p' + (i + 1) + '.png") no-repeat';
-	arr[i].style.WebkitTransform = "rotateY(" + 360 / arr.length * i + 'deg) translatez(' + radius + 'px)';
-}
 
-function calculateRadius(length, totalNum) {
-	return Math.round(length / (2 * Math.tan(Math.PI / totalNum))) - 3;
-}
-$('#laba').on('tap', function(e) {
-	if (audio.paused) {
-		audio.play();
-		$('#laba').text('🎺');
-	} else {
-		audio.pause();
-		$('#laba').text('⏸');
+});
+// 插入背景图片
+function setBackground(){
+	var arr = $('.img-item');
+	var len = arr.length;
+	var r = calculateRadius(64.5, len);
+	console.log(arr);
+
+	for(var i = 0; i < len; i++){
+		arr[i].style.background = 'url("./img/p'+(i+1)+'.png") no-repeat';
+		arr[i].style.transform = 'rotateY('+360/len*i+'deg) translateZ('+r+'px)';
 	}
-})
+}
+//求r长度
+function calculateRadius(length, totalNum) {
+	var t = 360/totalNum/2;
+	return Math.round(length / Math.tan(t / 180 * Math.PI))-3;
+}
 
 var startX = 0,
 	x = 0,
 	endX = 0;
 var flag = true;
+
+
 $('#box').on('touchstart', function(event) {
 	event.preventDefault();
 
@@ -38,7 +39,7 @@ $('#box').on('touchmove', function(event) {
 		var touch = event.targetTouches[0];
 		endX = touch.pageX;
 		x = endX - startX;
-		box.style.transform = 'rotateY(' + x + 'deg)';
+		box.style.transform = 'rotateY(' + (x-9) + 'deg)';
 	} else {
 		return false;
 	}
@@ -48,15 +49,23 @@ $('#box').on('touchend', function(event) {
 	console.log("over");
 });
 
-
 window.addEventListener('deviceorientation', function(event) {
 
 	var gamma = event.gamma;
-	if (Math.abs(gamma) > 1) {
+	if (Math.abs(gamma) > 10) {
 		flag = false;
-		box.style.transform = 'rotateY(' + gamma * 3 + 'deg)';
+		box.style.transform = 'rotateY(' + gamma * 2 + 'deg)';
 	} else {
 		flag = true;
 	}
 
-})
+	var beta = event.beta;
+	// alert(beta);
+	if (Math.abs(beta) > 10) {
+		// alert(beta * 3);
+		flag = false;
+		box.style.transform = 'rotateX(' + beta + 'deg)';
+	} else {
+		flag = true;
+	}
+});
