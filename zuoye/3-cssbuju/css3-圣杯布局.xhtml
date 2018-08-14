@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>圣杯布局</title>
+
+<script src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+</head>
+<style type="text/css">
+    /*圣杯布局*/
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    div{
+        min-height: 130px;
+    }
+    .container{
+        padding: 0 300px 0 200px;
+    }
+    .main, .left, .right{
+        position: relative;
+        float: left;
+
+    }
+    .main{
+        width: 100%;
+        background: green;
+    }
+    .left{
+        left: -200px;
+        margin-left: -100%;
+        background: yellow;
+        width: 200px;
+    }
+    .right{
+        right: -300px;
+        margin-left: -300px;
+        background: red;
+        width: 300px;
+    }
+</style>
+
+<body>
+<div class="container">
+    　　<div class="main">main</div>
+    　　<div class="left">left</div>
+    　　<div class="right">right</div>
+</div>
+</body>
+</html>

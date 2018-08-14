@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>双飞翼布局</title>
+</head>
+<style type="text/css">
+    /*双飞翼布局*/
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    div{
+        /*min-height: 130px;*/
+    }
+    .container{
+        /*padding: 0 300px 0 200px;*/
+        /*等高代码*/
+        overflow: hidden;
+    }
+    .main, .left, .right{
+        float: left;
+        /*等高代码*/
+        margin-bottom: -999px;
+        padding-bottom: 999px;
+
+    }
+    .main{
+        width: 100%;
+        background: green;
+    }
+    .left{
+        margin-left: -100%;
+        background: yellow;
+        width: 200px;
+    }
+    .right{
+        margin-left: -300px;
+        background: red;
+        width: 300px;
+    }
+    .content{
+        margin:0 300px 0 200px;
+    }
+</style>
+<body>
+<div class="container">
+    　　<div class="main">
+            <div class="content">
+                main
+            </div>
+        </div>
+    　　<div class="left">left</div>
+    　　<div class="right">right</div>
+</div>
+</body>
+</html>

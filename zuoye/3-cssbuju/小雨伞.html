@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <title>css-渐变小雨伞</title>
+	<style type="text/css">
+		h2{
+			text-align: center;
+		}
+		.box {
+			position: relative;
+			margin-top: 80px;
+			background:
+				radial-gradient(50px  350px at 50% 100%, #70c72b 50%, transparent 50%),
+				radial-gradient(150px 350px at 50% 100%, #f22430 50%, transparent 50%),
+				radial-gradient(250px 350px at 50% 100%, #0174e1 50%, transparent 50%),
+				radial-gradient(350px 350px at 50% 100%, #ef025e 50%, transparent 50%);
+			background-repeat: no-repeat;
+			width: 350px;
+			height: 175px;
+		}
+		.box:before {
+			display: block;
+			content: "1";
+			position: absolute;
+			left: 50%;
+			top: -20px;
+			margin-left: -3px;
+			height: 20px;
+			width: 6px;
+			background: #000000;
+			border-radius: 6px 6px 0 0 ;
+		}
+		.box:after {
+			display: block;
+			content: "1";
+			position: absolute;
+			left: 50%;
+			bottom: -200px;
+			margin-left: -3px;
+			height: 200px;
+			width: 6px;
+			background: #000000;
+			border-radius: 0 0 20px 20px ;
+			border-bottom-width: 40px;
+			border-bottom-color: #70c72b;
+
+		}
+	</style>
+</head>
+
+
+<body>
+<h2>渐变小雨伞</h2>
+	<div class="box"></div>
+</body>
+
+</html>
